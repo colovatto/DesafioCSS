@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head class="cabecalho">
+
+    <title>Site do Flamengo</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+
+<body>
+    <nav class="navegacao">
+
+        <img src="flamengo.png" width= "100px"  height= "100px" alt="Escudo do Flamengo">
+        <p id="nav"> Clube de Regatas do Flamengo</p>
+
+
+        <ul>
+            <li><a href="paginaInicial.html">Página Inicial</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+        </ul>
+    </nav>
+    <br>
+
+
+    <form action="mensagem.html" method="post">
+        <h1>Envie uma mensagem para nós</h1>
+
+        <label for="nomeCompleto"> Nome Completo </label>
+        <br>
+        <input type="text"  name="nomeCompleto" id="nome" aria-labelledby="Informe um nome" required>
+
+        <br>
+
+        <label for="email" > E-mail</label>
+        <br>
+        <input type="email" name="email" id="email"  aria-labelledby="Informe um E-mail" required>
+
+        <br>
+        
+        <label for="mensagem" >Mensagem:</label>
+        <br>
+        
+        <textarea id="mensagem" name="mensagem" rows="10" cols="50"  aria-labelledby="informe uma Mensagem"></textarea>
+
+        <br>
+        <button  type="submit" alt="Enviar">Enviar</button>
+        <button  type="reset" alt="Enviar">Limpar</button>
+    </form>
+
+</body>
+
+
+</html>
